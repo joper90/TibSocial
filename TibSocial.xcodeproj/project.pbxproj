@@ -13,6 +13,7 @@
 		761F89A8191111A4008236C0 /* subway-lines.png in Resources */ = {isa = PBXBuildFile; fileRef = 761F89A7191111A4008236C0 /* subway-lines.png */; };
 		761F89AA191116F7008236C0 /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 761F89A9191116F7008236C0 /* trophy.png */; };
 		761F89AE19111793008236C0 /* tibco_social_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 761F89AD19111793008236C0 /* tibco_social_120.png */; };
+		7668F9A919128CB900062273 /* FVTibbrMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7668F9A819128CB900062273 /* FVTibbrMessage.m */; };
 		7692860D19095BC000FE42A9 /* FVUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7692860C19095BC000FE42A9 /* FVUserInfo.m */; };
 		7692861019095C3E00FE42A9 /* FVPlayerCoreDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 7692860F19095C3E00FE42A9 /* FVPlayerCoreDetails.m */; };
 		7692861419095EBD00FE42A9 /* FVAchivementProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 7692861319095EBD00FE42A9 /* FVAchivementProgress.m */; };
@@ -59,6 +60,8 @@
 		761F89A7191111A4008236C0 /* subway-lines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subway-lines.png"; sourceTree = "<group>"; };
 		761F89A9191116F7008236C0 /* trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophy.png; sourceTree = "<group>"; };
 		761F89AD19111793008236C0 /* tibco_social_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tibco_social_120.png; sourceTree = "<group>"; };
+		7668F9A719128CB900062273 /* FVTibbrMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVTibbrMessage.h; sourceTree = "<group>"; };
+		7668F9A819128CB900062273 /* FVTibbrMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVTibbrMessage.m; sourceTree = "<group>"; };
 		7692860B19095BC000FE42A9 /* FVUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVUserInfo.h; sourceTree = "<group>"; };
 		7692860C19095BC000FE42A9 /* FVUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVUserInfo.m; sourceTree = "<group>"; };
 		7692860E19095C3E00FE42A9 /* FVPlayerCoreDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVPlayerCoreDetails.h; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 				76928622190E8F7100FE42A9 /* FVBaseModel.m */,
 				76928624190E8FF900FE42A9 /* FVAchivementsModel.h */,
 				76928625190E8FF900FE42A9 /* FVAchivementsModel.m */,
+				7668F9A719128CB900062273 /* FVTibbrMessage.h */,
+				7668F9A819128CB900062273 /* FVTibbrMessage.m */,
 			);
 			name = RestClasses;
 			sourceTree = "<group>";
@@ -402,6 +407,7 @@
 				7692862C190FB27100FE42A9 /* FVListViewController.m in Sources */,
 				7692C9A81908F4C90048EEEB /* FVViewController.m in Sources */,
 				76928626190E8FF900FE42A9 /* FVAchivementsModel.m in Sources */,
+				7668F9A919128CB900062273 /* FVTibbrMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

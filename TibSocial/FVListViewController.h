@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <RestKit/RestKit.h>
 
 @interface FVListViewController : UIViewController
-- (IBAction)tibbrTestButton:(id)sender;
 
 @end
