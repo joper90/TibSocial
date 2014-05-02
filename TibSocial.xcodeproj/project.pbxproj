@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		1452463DD5CE4FAE9E715FC6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFD2C65550F4D0191771801 /* libPods.a */; };
-		761F89A0191100A8008236C0 /* FVMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761F899F191100A8008236C0 /* FVMyViewController.m */; };
 		761F89A619110336008236C0 /* FVAllTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761F89A519110336008236C0 /* FVAllTVController.m */; };
 		761F89A8191111A4008236C0 /* subway-lines.png in Resources */ = {isa = PBXBuildFile; fileRef = 761F89A7191111A4008236C0 /* subway-lines.png */; };
 		761F89AA191116F7008236C0 /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 761F89A9191116F7008236C0 /* trophy.png */; };
 		761F89AE19111793008236C0 /* tibco_social_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 761F89AD19111793008236C0 /* tibco_social_120.png */; };
 		7668F9A919128CB900062273 /* FVTibbrMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7668F9A819128CB900062273 /* FVTibbrMessage.m */; };
+		7668FA011913A6D700062273 /* MSAnnotatedGauge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7668F9F41913A6D700062273 /* MSAnnotatedGauge.m */; };
+		7668FA021913A6D700062273 /* MSArcLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7668F9F61913A6D700062273 /* MSArcLayer.m */; };
+		7668FA031913A6D700062273 /* MSGradientArcLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7668F9F91913A6D700062273 /* MSGradientArcLayer.m */; };
+		7668FA041913A6D700062273 /* MSNeedleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7668F9FB1913A6D700062273 /* MSNeedleView.m */; };
+		7668FA051913A6D700062273 /* MSRangeGauge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7668F9FD1913A6D700062273 /* MSRangeGauge.m */; };
+		7668FA061913A6D700062273 /* MSSimpleGauge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7668F9FF1913A6D700062273 /* MSSimpleGauge.m */; };
+		7668FA091913AD3100062273 /* MSRangeGaugeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7668FA081913AD3100062273 /* MSRangeGaugeViewController.m */; };
 		7692860D19095BC000FE42A9 /* FVUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7692860C19095BC000FE42A9 /* FVUserInfo.m */; };
 		7692861019095C3E00FE42A9 /* FVPlayerCoreDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 7692860F19095C3E00FE42A9 /* FVPlayerCoreDetails.m */; };
 		7692861419095EBD00FE42A9 /* FVAchivementProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 7692861319095EBD00FE42A9 /* FVAchivementProgress.m */; };
@@ -53,8 +59,6 @@
 /* Begin PBXFileReference section */
 		4CFD2C65550F4D0191771801 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		504DEB05E1BC45129DCAF0CA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		761F899E191100A8008236C0 /* FVMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVMyViewController.h; sourceTree = "<group>"; };
-		761F899F191100A8008236C0 /* FVMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVMyViewController.m; sourceTree = "<group>"; };
 		761F89A419110336008236C0 /* FVAllTVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVAllTVController.h; sourceTree = "<group>"; };
 		761F89A519110336008236C0 /* FVAllTVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVAllTVController.m; sourceTree = "<group>"; };
 		761F89A7191111A4008236C0 /* subway-lines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subway-lines.png"; sourceTree = "<group>"; };
@@ -62,6 +66,22 @@
 		761F89AD19111793008236C0 /* tibco_social_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tibco_social_120.png; sourceTree = "<group>"; };
 		7668F9A719128CB900062273 /* FVTibbrMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVTibbrMessage.h; sourceTree = "<group>"; };
 		7668F9A819128CB900062273 /* FVTibbrMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVTibbrMessage.m; sourceTree = "<group>"; };
+		7668F9F31913A6D700062273 /* MSAnnotatedGauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAnnotatedGauge.h; sourceTree = "<group>"; };
+		7668F9F41913A6D700062273 /* MSAnnotatedGauge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAnnotatedGauge.m; sourceTree = "<group>"; };
+		7668F9F51913A6D700062273 /* MSArcLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSArcLayer.h; sourceTree = "<group>"; };
+		7668F9F61913A6D700062273 /* MSArcLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSArcLayer.m; sourceTree = "<group>"; };
+		7668F9F71913A6D700062273 /* MSArcLayerSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSArcLayerSubclass.h; sourceTree = "<group>"; };
+		7668F9F81913A6D700062273 /* MSGradientArcLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGradientArcLayer.h; sourceTree = "<group>"; };
+		7668F9F91913A6D700062273 /* MSGradientArcLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSGradientArcLayer.m; sourceTree = "<group>"; };
+		7668F9FA1913A6D700062273 /* MSNeedleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNeedleView.h; sourceTree = "<group>"; };
+		7668F9FB1913A6D700062273 /* MSNeedleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNeedleView.m; sourceTree = "<group>"; };
+		7668F9FC1913A6D700062273 /* MSRangeGauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRangeGauge.h; sourceTree = "<group>"; };
+		7668F9FD1913A6D700062273 /* MSRangeGauge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRangeGauge.m; sourceTree = "<group>"; };
+		7668F9FE1913A6D700062273 /* MSSimpleGauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSimpleGauge.h; sourceTree = "<group>"; };
+		7668F9FF1913A6D700062273 /* MSSimpleGauge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSimpleGauge.m; sourceTree = "<group>"; };
+		7668FA001913A6D700062273 /* MSSimpleGaugeSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSimpleGaugeSubclass.h; sourceTree = "<group>"; };
+		7668FA071913AD3100062273 /* MSRangeGaugeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRangeGaugeViewController.h; sourceTree = "<group>"; };
+		7668FA081913AD3100062273 /* MSRangeGaugeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRangeGaugeViewController.m; sourceTree = "<group>"; };
 		7692860B19095BC000FE42A9 /* FVUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVUserInfo.h; sourceTree = "<group>"; };
 		7692860C19095BC000FE42A9 /* FVUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVUserInfo.m; sourceTree = "<group>"; };
 		7692860E19095C3E00FE42A9 /* FVPlayerCoreDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVPlayerCoreDetails.h; sourceTree = "<group>"; };
@@ -128,6 +148,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7668F9F21913A6D700062273 /* Gauges */ = {
+			isa = PBXGroup;
+			children = (
+				7668F9F31913A6D700062273 /* MSAnnotatedGauge.h */,
+				7668F9F41913A6D700062273 /* MSAnnotatedGauge.m */,
+				7668F9F51913A6D700062273 /* MSArcLayer.h */,
+				7668F9F61913A6D700062273 /* MSArcLayer.m */,
+				7668F9F71913A6D700062273 /* MSArcLayerSubclass.h */,
+				7668F9F81913A6D700062273 /* MSGradientArcLayer.h */,
+				7668F9F91913A6D700062273 /* MSGradientArcLayer.m */,
+				7668F9FA1913A6D700062273 /* MSNeedleView.h */,
+				7668F9FB1913A6D700062273 /* MSNeedleView.m */,
+				7668F9FC1913A6D700062273 /* MSRangeGauge.h */,
+				7668F9FD1913A6D700062273 /* MSRangeGauge.m */,
+				7668F9FE1913A6D700062273 /* MSSimpleGauge.h */,
+				7668F9FF1913A6D700062273 /* MSSimpleGauge.m */,
+				7668FA001913A6D700062273 /* MSSimpleGaugeSubclass.h */,
+			);
+			path = Gauges;
+			sourceTree = "<group>";
+		};
 		7692861119095E7E00FE42A9 /* RestClasses */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,14 +199,14 @@
 		7692862D190FB2C700FE42A9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7668FA071913AD3100062273 /* MSRangeGaugeViewController.h */,
+				7668FA081913AD3100062273 /* MSRangeGaugeViewController.m */,
 				761F89A419110336008236C0 /* FVAllTVController.h */,
 				761F89A519110336008236C0 /* FVAllTVController.m */,
 				7692C9A61908F4C90048EEEB /* FVViewController.h */,
 				7692C9A71908F4C90048EEEB /* FVViewController.m */,
 				7692862A190FB27100FE42A9 /* FVListViewController.h */,
 				7692862B190FB27100FE42A9 /* FVListViewController.m */,
-				761F899E191100A8008236C0 /* FVMyViewController.h */,
-				761F899F191100A8008236C0 /* FVMyViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -212,6 +253,7 @@
 		7692C9971908F4C90048EEEB /* TibSocial */ = {
 			isa = PBXGroup;
 			children = (
+				7668F9F21913A6D700062273 /* Gauges */,
 				7692C9A01908F4C90048EEEB /* FVAppDelegate.h */,
 				7692C9A11908F4C90048EEEB /* FVAppDelegate.m */,
 				7692C9A31908F4C90048EEEB /* Main.storyboard */,
@@ -392,17 +434,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				761F89A0191100A8008236C0 /* FVMyViewController.m in Sources */,
 				7692C9A21908F4C90048EEEB /* FVAppDelegate.m in Sources */,
 				76928623190E8F7100FE42A9 /* FVBaseModel.m in Sources */,
+				7668FA021913A6D700062273 /* MSArcLayer.m in Sources */,
 				7692861A190E868700FE42A9 /* FVCarDetails.m in Sources */,
 				761F89A619110336008236C0 /* FVAllTVController.m in Sources */,
 				7692861D190E8C5400FE42A9 /* FVRequestDetails.m in Sources */,
 				76928620190E8D4600FE42A9 /* FVAchivements.m in Sources */,
+				7668FA051913A6D700062273 /* MSRangeGauge.m in Sources */,
 				76928617190E7EE900FE42A9 /* FVCar.m in Sources */,
 				7692861019095C3E00FE42A9 /* FVPlayerCoreDetails.m in Sources */,
+				7668FA031913A6D700062273 /* MSGradientArcLayer.m in Sources */,
+				7668FA061913A6D700062273 /* MSSimpleGauge.m in Sources */,
 				7692861419095EBD00FE42A9 /* FVAchivementProgress.m in Sources */,
 				7692C99E1908F4C90048EEEB /* main.m in Sources */,
+				7668FA091913AD3100062273 /* MSRangeGaugeViewController.m in Sources */,
+				7668FA011913A6D700062273 /* MSAnnotatedGauge.m in Sources */,
+				7668FA041913A6D700062273 /* MSNeedleView.m in Sources */,
 				7692860D19095BC000FE42A9 /* FVUserInfo.m in Sources */,
 				7692862C190FB27100FE42A9 /* FVListViewController.m in Sources */,
 				7692C9A81908F4C90048EEEB /* FVViewController.m in Sources */,

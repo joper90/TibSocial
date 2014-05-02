@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MSRangeGauge.h"
 
 
 @interface FVViewController : UIViewController
@@ -14,5 +15,6 @@
 - (IBAction)loginPushed:(id)sender;
 @property (strong, nonatomic) IBOutlet UITextField *userName;
 @property (strong, nonatomic) IBOutlet UITextField *password;
+
 
 @end
